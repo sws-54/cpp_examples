@@ -26,7 +26,7 @@ int main()
 	
 	//range constractor from loop
 	int a[] = {10,22,33};
-	std::vector<int> fifth(a,a + sizeof(a) / sizeof(int));
+	std::vector<int> fifth(a,a + sizeof(a) / sizeof(int)); // takes two memeor address and loop through them adding the value to the vector
 
 	//////////////////////////////////////////////////////////
 	
