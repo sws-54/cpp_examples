@@ -7,7 +7,7 @@
 // struct is used to create a group of data just like database table
 // struct it slef is just blueprint on what type of data , u need to create an obj and fill data inside it
 // u can use that group of data by sending it function or classes or using whateve just like one variable 
-
+// just like classes struct can have constructor and destructor and can inheret too
 
 
 #include <iostream>
