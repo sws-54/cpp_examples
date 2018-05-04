@@ -95,6 +95,20 @@ int main()
 	p++; // we can still change the address inside the pointer to but we cant change the value to anything the pointer points to
 	printf("%d \n",*p);
 	
+	int x = 10;
+	int v = 20;
+
+	int const *p = &x; // we cant use this pointer to modify the value but we can modify the pointer itslef to point to diffrent address
+	
+	//*p = 30; error
+	p = &v; // ok
+
+
+	int * const p2 = &x; // here is the opposite we can use it to modify but we cant modify it to point to diffrent address 
+	
+	*p2 = 30; // ok
+	//p2 = &v; // error
+	
 	//////////////////////////////////////////////////////
 	// 6- Pointers and string literals
 
@@ -133,5 +147,11 @@ int main()
 	printf("%d \n",po(10,20));
 
 	system("pause");
+	
+	//////////////////////////////////////////////////////
+	// 8- pointer to class 
 
+	// we cant pointer directly to a class 
+	// but we can point to an obj from that class
+	// and use arrow oprator to access class members (->)
 }
