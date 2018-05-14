@@ -1,6 +1,6 @@
-// cpp_examples - file io
-//
-// all the uses of files  
+// Intermediate - file io
+// 
+// All uses of file io
 //
 // sws-54 - 2018-5-10
 
