@@ -1,0 +1,88 @@
+// cpp_examples - casting & conversion
+//
+// all the uses of casting & conversion
+//
+// sws-54 - 2018-5-23
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+/////////////////////////////////////////////////
+// 1- implicit and explicit conversion
+
+// implicit conversion means conversion without the programmer asking for it behide the seens
+// explicit keyword stops implicit conversion
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////
+
+// 2- simple casting 
+/*
+int main()
+{
+	double x = 9.9;
+	int c;
+	int cpp;
+
+	c = (int)x; // 1.1 c casting stops warning 
+	cpp = int(x); // 1.2 c++ casting stops warning
+
+	double *p = &x;
+
+	int *pp = (int*)p;
+}
+*/
+
+/////////////////////////////////////////////////
+
+// 3- static cast
+
+// static cast is safer than c and c++ casting 
+// it does compiler time check 
+
+/*
+int main()
+{
+	int x = 10;
+	double d = static_cast<double>(x);
+}
+*/
+
+
+/////////////////////////////////////////////////
+
+// 4- dynamic cast
+
+// dynamic cast does checking at runtime
+/*
+int main()
+{
+	int x = 10;
+	double d dynamic_cast<int>(x);
+}
+*/
+
+
+//////////////////////////////////////////////////
+
+// 5- const cast
+
+
+/*
+int main()
+{
+	int x = 10;
+	int const *p = const_cast<int*>(&x);
+}
+
+*/
+
+
